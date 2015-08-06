@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 855px;
+	margin: 0 auto;
+	background: lightyellow;
+}
+
+header {
+	border-bottom: 1px solid gray;
+	overflow: auto;
+}
+
+header p {
+	margin-top: 10px;
+	font-style: italic;
+}
+
+main {
+	padding: 20px 0 30px 0;
+	border-bottom: 1px solid gray;
+	overflow: auto;
+}
+
+.one-third {
+	width: 285px;
+}
+
+.comments p {
+	margin: 7px 0 7px 0;
+}
+
+.two-third {
+	width: 570px;
+}
+
+.comments p:nth-child(even) {
+	background: lavender;
+}
+
+.comments p:nth-child(odd) {
+	background: gainsboro;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.comment-input {
+	clear: left;
+}
