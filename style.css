@@ -56,3 +56,7 @@ main {
 .comment-input {
 	clear: left;
 }
+
+.comment-input button:hover {
+	cursor: pointer;
+} 
